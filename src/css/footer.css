@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--bg-dark);
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+.footer-bottom-area {
+    position: relative;
+    background-color: #191919;
+}
+.footer-bottom-area p:first-child {
+    line-height: 1.75em;
+    color: #fff;
+}
+.copyright {
+    color: #999;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.copyright a {
+    color: #666;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer_description {
+        padding: 0;
+    }
+
+    .low__fix {
+        display: inline !important;
+    }
+}
